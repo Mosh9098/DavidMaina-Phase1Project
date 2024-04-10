@@ -27,3 +27,7 @@ body {
     border-radius: 5px;
     cursor: pointer;
     }
+    #generate-card:hover {
+    background-color: #ffdb4d;
+    }
+    

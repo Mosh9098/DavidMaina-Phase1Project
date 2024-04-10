@@ -11,12 +11,12 @@ generateCardButton.addEventListener('click', () => {
       if (data.id) {
         generateCard(data);
       } else {
-        pokemonCard.innerHTML = 'Pokemon not found!';
+        pokemonCard.innerHTML = 'Enter Pokemon Name!';
       }
       console.log(data);
     })
     .catch(error => {
-      pokemonCard.innerHTML = 'Error fetching Pokemon data!';
+      pokemonCard.innerHTML = 'Pokemon not found!';
     });
 });
 function generateCard(pokemonData) {

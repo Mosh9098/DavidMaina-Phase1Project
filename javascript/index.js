@@ -38,6 +38,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const likeButton = document.getElementById('like-button');
         const dislikeButton = document.getElementById('dislike-button');
+        const commentBox = document.getElementById('comment-box');
+        const submitButton = document.getElementById('submit-comment');
 
         likeButton.addEventListener('click', () => {
           alert(`You liked ${pokemonData.name}!`);

@@ -2,7 +2,6 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    /* background-color: #f0f0f0; */
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpmdcY4_3Ikg6PYDDnqoMdyyU3ZpNKxzWD0w&s");
     background-repeat: no-repeat;
     background-size: cover;
@@ -30,6 +29,11 @@ body {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    }
+    #like{
+    display: table;
+    margin: 0 auto;
+    padding: 10px 20px;    
     }
     #generate-card:hover {
     background-color: #ffdb4d;

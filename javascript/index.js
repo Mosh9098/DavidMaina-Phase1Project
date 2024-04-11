@@ -31,8 +31,8 @@ document.addEventListener('DOMContentLoaded', () => {
           <button id="like-button">👍</button>
           <button id="dislike-button">👎</button>
           <div>
-          <textarea id="comment-box" placeholder="Write your comment here"></textarea> <!-- Added comment box -->
-          <button id="submit-comment">Submit</button>
+          <textarea id="comment-box" placeholder="Write your comment here"></textarea> 
+          <button id="submit-comment">comment</button>
         `;
         pokemonCard.innerHTML = cardHTML;
 
@@ -47,6 +47,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
         dislikeButton.addEventListener('click', () => {
           alert(`You disliked ${pokemonData.name}!`);
+        });
+        submitButton.addEventListener('click', () => {
+          alert('Comment received!');
         });
       });
   }

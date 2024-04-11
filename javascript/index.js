@@ -31,13 +31,13 @@ document.addEventListener('DOMContentLoaded', () => {
           <button id="like-button">👍</button>
           <button id="dislike-button">👎</button>
           <div>
-          <textarea id="comment-box" placeholder="Write your comment here"></textarea>
+          <textarea id="comment-box" placeholder="Write your comment here"></textarea> <!-- Added comment box -->
+          <button id="submit-comment">Submit</button>
         `;
         pokemonCard.innerHTML = cardHTML;
 
         const likeButton = document.getElementById('like-button');
         const dislikeButton = document.getElementById('dislike-button');
-        
 
         likeButton.addEventListener('click', () => {
           alert(`You liked ${pokemonData.name}!`);

@@ -53,7 +53,12 @@ document.addEventListener('DOMContentLoaded', () => {
           alert(`You disliked ${pokemonData.name}!`);
         });
         submitButton.addEventListener('click', () => {
-          alert('Comment received!');
+          const comment = commentBox.value.trim(); // Get the comment text and remove leading/trailing spaces
+          if (comment) {
+            alert(`Comment received: ${comment}`);
+          } else {
+            alert("Please enter a comment.");
+          }
         });
       });
   }

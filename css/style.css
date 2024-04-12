@@ -38,6 +38,18 @@ body {
     flex-wrap: wrap; 
     border-radius: 5px;
     }
+    #like-button{
+    font-size: larger;
+    border: none;
+    margin: inherit;
+    border-radius: inherit;
+    }
+    #dislike-button{
+    font-size: larger;
+    border: none;
+    margin: inherit;
+    border-radius: inherit;
+    }
     #comment{
     display: flex;
     margin: 0 auto;
@@ -65,7 +77,7 @@ body {
     cursor: pointer;
     }
     #satisfaction{
-    background-color: #87cefa;
+    background-color: #d93030;
     }
     #generate-card:hover {
     background-color: #ffdb4d;

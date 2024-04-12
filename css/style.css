@@ -31,9 +31,41 @@ body {
     cursor: pointer;
     }
     #like{
-    display: table;
+    display: flex;
     margin: 0 auto;
-    padding: 10px 20px;    
+    padding: 10px 20px; 
+    justify-content: space-evenly;  
+    flex-wrap: wrap; 
+    border-radius: 5px;
+    }
+    #comment{
+    display: flex;
+    margin: 0 auto;
+    padding: 10px 20px;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    }
+    #comment-box{
+    display: flex;
+    margin: 0 auto;
+    padding: 10px 10px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: auto;
+    }
+    #submit-comment{
+    display: block;
+    margin: 0 auto;
+    padding: 5px 10px;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+    #satisfaction{
+    background-color: #87cefa;
     }
     #generate-card:hover {
     background-color: #ffdb4d;

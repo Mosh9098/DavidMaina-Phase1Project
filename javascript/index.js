@@ -27,12 +27,16 @@ document.addEventListener('DOMContentLoaded', () => {
           <img src="${spriteUrl}" alt="${pokemonData.name}">
           <h2>${pokemonData.name}</h2>
           <p>Type: ${pokemonData.types[0].type.name}</p>
+          <div id="satisfaction">
           <div id="like"> 
           <button id="like-button">👍</button>
           <button id="dislike-button">👎</button>
-          <div>
+          </div>
+          <div id="comment">
           <textarea id="comment-box" placeholder="Write your comment here"></textarea> 
           <button id="submit-comment">comment</button>
+          </div>
+          </div>
         `;
         pokemonCard.innerHTML = cardHTML;
 
